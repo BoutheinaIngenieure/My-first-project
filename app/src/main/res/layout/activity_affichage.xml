@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    tools:context=".Affichage">
+
+    <TextView
+        android:id="@+id/tvuser_acc"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Affichage"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C60446"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edrech_affihe"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:ems="10"
+        android:hint="Recherche"
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/lv_affiche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

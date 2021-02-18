@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    tools:context=".Edit">
+
+    <TextView
+        android:id="@+id/edtitre_edit"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Modifier"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C60446"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ednom_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edprenom_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="prenom"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edpw_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="numberPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btqte_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/colorAccent"
+            android:text="Quiter" />
+
+        <Button
+            android:id="@+id/btval_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            android:text="modifier" />
+    </LinearLayout>
+
+</LinearLayout>

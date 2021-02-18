@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvnom_view"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/arriereplan"
+        android:gravity="center"
+        android:hint="nom"
+        android:textColor="#170202" />
+
+    <TextView
+        android:id="@+id/tvprenom_view"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="#BCECB1B1"
+        android:gravity="center"
+        android:hint="prenom" />
+
+    <TextView
+        android:id="@+id/tvnum_view"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="#51ECB1B1"
+        android:gravity="center"
+        android:hint="numéro" />
+
+</LinearLayout>

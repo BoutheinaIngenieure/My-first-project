@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    tools:context=".Ajout">
+
+    <TextView
+        android:id="@+id/tvuser_acc"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Ajouter"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C60446"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:id="@+id/ednom_ajout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="name"
+            android:inputType="textPersonName"
+            android:paddingTop="20dp" />
+
+        <EditText
+            android:id="@+id/edprenom_ajout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="prenom"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edpw_ajout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="numberPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btqte_ajout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/colorAccent"
+            android:text="Quiter" />
+
+        <Button
+            android:id="@+id/btval_ajout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            android:text="valider" />
+    </LinearLayout>
+</LinearLayout>

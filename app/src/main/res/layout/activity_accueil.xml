@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    tools:context=".Accueil">
+
+    <TextView
+        android:id="@+id/tvuser_acc"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Accueil"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C60446"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|right|center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <Button
+            android:id="@+id/btajout_acc"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@android:drawable/ic_menu_add"
+            android:shadowRadius="30"
+            android:text="Ajout" />
+
+        <Button
+            android:id="@+id/btnaff_acc"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@android:drawable/ic_input_get"
+            android:shadowRadius="30"
+            android:text="Affichage" />
+    </LinearLayout>
+
+</LinearLayout>
